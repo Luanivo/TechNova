@@ -331,4 +331,30 @@ p {
 
 .texto-cinza {
     color: #e7e3e3; /* Cinza claro */
+}.carousel-caption {
+    margin-top: 20px; /* Espaçamento acima da legenda */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+}
+
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding-left: 0; /* Remove preenchimento à esquerda */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel-caption {
+        margin-top: 10px; /* Menor espaçamento em telas pequenas */
+        padding: 5px; /* Menos espaçamento interno */
+        text-align: center; /* Centraliza o texto em telas pequenas */
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-caption {
+        margin-top: 20px; /* Maior espaçamento em telas grandes */
+        padding: 15px; /* Mais espaçamento interno */
+        text-align: left; /* Alinha à esquerda em telas maiores */
+    }
 }
