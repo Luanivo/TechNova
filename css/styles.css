@@ -1,0 +1,334 @@
+/* Estilo geral do body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-image: url('https://img.freepik.com/vetores-gratis/tecnologia-de-rede-futurista-azul_53876-100679.jpg?t=st=1729189075~exp=1729192675~hmac=6baad2d737345df55b146a8d563ac0fafcde954a8c30024f54a8b94a6568574c&w=900');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header.jumbotron {
+    background-color: #007bff;
+    /* Fundo branco semi-transparente */
+    padding: 60px 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    /* Margem superior e inferior */
+    max-width: 800px;
+    /* Largura máxima */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
+
+p {
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    /* Espaçamento inferior */
+}
+
+/* Estilo do botão */
+.jumbotron .btn {
+    margin-top: 20px;
+}
+
+/* Estilo da seção de produtos */
+.row {
+    margin: 20px auto;
+    /* Margem superior e inferior */
+    max-width: 1200px;
+    /* Largura máxima */
+}
+
+.card {
+    width:300px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    /* Bordas arredondadas na parte superior */
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    /* Espaçamento interno */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    /* Tamanho do título */
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
+
+.card-text {
+    margin-bottom: 15px;
+    /* Espaçamento inferior */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+    /* Espaçamento superior e inferior */
+    position: relative;
+    /* Alterado para relativo */
+    width: 100%;
+    text-align: center;
+    /* Centraliza o texto */
+    margin-top: 20px;
+    margin-top: auto;
+    /* Margem superior */
+}
+
+/* Estilo geral do menu de navegação */
+.navbar {
+    background-color: #007bff;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Estilo dos links do menu */
+.navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+/* Estilo do link ativo */
+.navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+/* Efeito de foco nos links */
+.navbar-nav .nav-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para a barra de navegação quando em dispositivos menores */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30' fill='white'%3E%3Cpath stroke='white' stroke-width='2' d='M5 7h20M5 15h20M5 23h20'/%3E%3C/svg%3E");
+}
+
+/* Estilo do dropdown (se usar) */
+.navbar-nav .dropdown-menu {
+    background-color: #344039;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #49574b;
+    color: #ffd700;
+}
+
+/* Responsividade: diminuir o logo em dispositivos menores */
+@media (max-width: 768px) {
+    .navbar-logo img {
+        height: 40px;
+    }
+}
+/* Estilo geral do container do formulário */
+.container {
+    max-width: 600px;
+    /* Largura máxima do formulário */
+    margin: 0 auto;
+    /* Centraliza o container */
+    padding: 20px;
+    /* Espaçamento interno */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fundo branco com 80% de opacidade */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+}
+
+/* Estilo dos títulos */
+h1 {
+    color: #007bff;
+    /* Cor do título */
+    margin-bottom: 20px;
+    /* Espaçamento inferior */
+}
+
+p {
+    color: #6c757d;
+    /* Cor do texto */
+    margin-bottom: 30px;
+    /* Espaçamento inferior */
+}
+
+/* Estilo dos grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre os campos */
+}
+
+/* Estilo dos rótulos */
+label {
+    font-weight: bold;
+    /* Negrito para destaque */
+    margin-bottom: 5px;
+    /* Espaçamento inferior */
+    display: block;
+    /* Faz o rótulo ocupar toda a largura */
+}
+
+/* Estilo dos campos de entrada */
+.form-control {
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    border: 1px solid #ced4da;
+    /* Borda padrão */
+    transition: border-color 0.3s ease;
+    /* Transição suave para a borda */
+}
+
+/* Efeito ao focar nos campos de entrada */
+.form-control:focus {
+    border-color: #007bff;
+    /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Sombra ao focar */
+}
+
+/* Estilo do botão */
+.btn {
+    margin-top: 10px;
+    /* Espaçamento superior do botão */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn:hover {
+    background-color: #0056b3;
+    /* Cor de fundo ao passar o mouse */
+}.container {
+    max-width: 1000px;
+    /* Reduz a largura máxima do container */
+    margin: 0 auto;
+    padding: 15px;
+    /* Reduz o espaçamento interno */
+}
+
+h1 {
+    font-size: 2rem;
+    /* Reduz o tamanho do título */
+    color: #333;
+    margin-bottom: 15px;
+    /* Diminui o espaçamento abaixo do título */
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    /* Reduz o tamanho da fonte dos parágrafos */
+    color: #555;
+    margin-bottom: 20px;
+    /* Diminui o espaçamento abaixo do parágrafo */
+    text-align: center;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 15px;
+    /* Reduz a distância do fundo */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Ajusta a opacidade do fundo para ser menos escuro */
+    color: white;
+    padding: 10px;
+    /* Reduz o espaçamento interno */
+    border-radius: 3px;
+    /* Bordas levemente menos arredondadas */
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 1.2rem;
+    /* Reduz o tamanho do título da legenda */
+    margin-bottom: 5px;
+    /* Diminui o espaçamento abaixo do título */
+}
+
+.carousel-caption p {
+    font-size: 0.9rem;
+    /* Reduz o tamanho da descrição */
+    margin: 0;
+}
+
+.carousel-caption ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-caption li {
+    margin: 3px 0;
+    /* Reduz o espaçamento entre os itens da lista */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    /* Define a cor de fundo das setas como cinza */
+    border-radius: 50%;
+    /* (Opcional) Adiciona bordas arredondadas para as setas */
+}
+
+.texto-branco {
+    color: white;
+}
+
+.texto-cinza {
+    color: #e7e3e3; /* Cinza claro */
+}
